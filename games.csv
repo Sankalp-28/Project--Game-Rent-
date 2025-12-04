@@ -1,0 +1,3 @@
+game_id,name,price,rent_price,genre,platform,status
+01,GTA,2500,3000,Multiplayer,PS5,available
+02,RED,500,550,RPG,PC,rented 

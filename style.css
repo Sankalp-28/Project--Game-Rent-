@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+}
+
+.topbar {
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .brand a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.form-small input[type="text"],
+.form-small input[type="email"],
+.form-small input[type="password"],
+.form-small input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px 0;
+  box-sizing: border-box;
+}
+
+button, .btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover { opacity: 0.9; }
+
+.btn.disabled {
+  background: #999;
+  cursor: default;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.card {
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+}
+
+.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.simple-table th, .simple-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.error { color: red; }
